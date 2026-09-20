@@ -19,19 +19,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Flourished under Golconda Sultanate & Vijayanagara Empire (15th–17th Century)",
     artMovement: "Temple Backdrop Narrative & Golconda Chintz",
     badgeColor: "#0284C7",
-    heroImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kalamkari_painting.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Hand-painted Tree of Life with natural vegetable mordants"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalamkari_painting.jpg?width=1000",
+            "caption": "Hand-painted Kalamkari cloth with natural dyes"
       },
       {
-            "url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional carved teakwood block printing in Machilipatnam"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalamkari_painting_in_progress.jpg?width=800",
+            "caption": "Artisan hand-painting Kalamkari with a bamboo kalam pen"
       },
       {
-            "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Narrative temple cloth hanging depicting epic Ramayana battles"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalamkari_Painting.JPG?width=800",
+            "caption": "Detail of a Kalamkari narrative panel"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dashavatara_de_kalamkari%2C_British_Museum.jpg?width=800",
+            "caption": "Dashavatara Kalamkari hanging, British Museum collection"
       }
 ],
     culturalSignificance: "Historically served as sacred temple portico hangings and mobile scripture backdrops. In Srikalahasti, it is deeply theological and spiritual, while Machilipatnam represents ancient Indian Ocean maritime trade links with Persia and Southeast Asia.",
@@ -77,19 +81,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Flourished alongside Tawang Monastery (founded 1681 CE by Merak Lama)",
     artMovement: "Himalayan Mahayana Buddhist Sacred Iconography",
     badgeColor: "#B45309",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/A_Thangka_Painting_depicting_the_Buddhist_parable_of_the_Four_Harmonious_Friends_at_Tawang_Monastery%2C_Tawang%2C_Arunachal_Pradesh%2C_India.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Sacred Mahayana Thangka scroll with gold leaf illumination"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Thangka_Painting_depicting_the_Buddhist_parable_of_the_Four_Harmonious_Friends_at_Tawang_Monastery%2C_Tawang%2C_Arunachal_Pradesh%2C_India.jpg?width=1000",
+            "caption": "Thangka at Tawang Monastery, Arunachal Pradesh"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Monpa carved ritual mask for monastic Torgya Cham dances"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palden_Lhamo%2C_Tawang_Monastery.jpg?width=800",
+            "caption": "Palden Lhamo thangka, Tawang Monastery"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Tawang monastic prayer room featuring wall frescoes"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tawang_Monastery_Doorway_Mandala.jpg?width=800",
+            "caption": "Painted mandala doorway, Tawang Monastery"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Animal_Head_Mask_from_Monpa%2C_Arunachal_Pradesh.jpg?width=800",
+            "caption": "Monpa animal-head ritual mask"
       }
 ],
     culturalSignificance: "Thangkas serve as visual meditation supports (yantras) that channel cosmic enlightenment. The accompanying Monpa Cham masks channel spiritual guardian deities during Torgya and Losar new year rituals to banish negative energies from the community.",
@@ -135,76 +143,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Initiated in the 15th–16th century by Saint Srimanta Sankardeva",
     artMovement: "Neo-Vaishnavite Satthriya Theatrical Craft",
     badgeColor: "#EA580C",
-    summary: "Traditional organic masks made of bamboo, clay from the Brahmaputra, cow dung, and vegetable dyes for the sacred Bhaona dance-dramas on Majuli, the world's largest river island.",
-    historicalContext: "Srimanta Sankardeva conceptualized Majuli masks to make spiritual epics visually accessible to everyone. The Chamaguri Satra monastery in Majuli has preserved this unbroken lineage for over 500 years.",
-    geographicSpread: "Cultivated across the Brahmaputra Valley of Assam; now recognized with a Geographical Indication (GI) tag and exhibited worldwide.",
-    techniquesAndPigments: "Pliant local bamboo splits form the 3D armature; covered with cloth dipped in alluvial clay and cow dung, then painted with natural dyes like Hengul (red vermilion) and Haital (yellow arsenic).",
-    keyMotifs: ["Ravana (with ten movable heads)", "Garuda the divine eagle", "Narasimha the half-man half-lion avatar", "Demons (Surpanakha, Kumbhakarna)"],
-    masterArtists: ["Dhiren Goswami (Padma Shri 2024)", "Hem Chandra Goswami (Sangeet Natak Akademi Awardee)", "Prabin Goswami"]
-  },
-  {
-    id: "bihar",
-    title: "Madhubani / Mithila Painting",
-    nativeName: "मिथिला चित्रकला",
-    state: "Bihar",
-    isUT: false,
-    region: "Madhubani, Darbhanga & Ranti",
-    coordinates: [26.3541, 86.0718],
-    category: "Folk & Tribal",
-    era: "Living Folk Tradition",
-    periodDetail: "Roots in ancient Mithila; documented in Ramayana; formalized 14th–20th Century",
-    artMovement: "Mithila Ritualistic Wall & Floor Art (Kohbar & Aripan)",
-    badgeColor: "#DC2626",
-    heroImage: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/A_mask_at_Majuli%2C_Assam.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
-            "caption": "Kohbar wedding chamber painting with bamboo grove and lotus"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_mask_at_Majuli%2C_Assam.jpg?width=1000",
+            "caption": "Traditional mukha mask, Majuli Island"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Intricate Kachni fine line cross-hatching of divine Radha Krishna"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Majuli_mask_making_culture.jpg?width=800",
+            "caption": "Artisan crafting a Majuli mukha mask"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Natural dye extraction from turmeric, indigo, and forest leaves"
-      }
-],
-    culturalSignificance: "Madhubani is inherently matrimonial, matriarchal, and sacred. The Kohbar ghar painting is blessed by the family women to invoke fertility, protection, and eternal cosmic harmony for newlywed couples.",
-    creationProcess: [
-      {
-            "step": 1,
-            "title": "Mud & Cowdung Wall Treatment",
-            "desc": "Traditionally walls were smeared with mud and cowdung paste; on paper, handmade sheets are treated with cowdung wash for an antique texture."
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mask_in_the_making%2C_Majuli%2C_Assam.jpg?width=800",
+            "caption": "Bamboo-and-clay mask under construction, Majuli"
       },
       {
-            "step": 2,
-            "title": "Double-Line Outline",
-            "desc": "The artist paints parallel contour lines without prior pencil sketching using a dipped bamboo twig or metal nib."
-      },
-      {
-            "step": 3,
-            "title": "Hatching & Shading (Kachni & Bharni)",
-            "desc": "The inner zones are either filled with dense cross-hatching (Kachni) or saturated flat colors (Bharni)."
-      },
-      {
-            "step": 4,
-            "title": "Organic Pigment Application",
-            "desc": "Colors from lamp soot, turmeric, indigo, crushed marigolds, and kusum flowers are carefully laid down."
-      }
-],
-    gallery: [
-      {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Elaborate Bhaona theatrical mask of Ravana with ten heads"
-      },
-      {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Artisan sculpting Brahmaputra river clay over bamboo frame"
-      },
-      {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Chamaguri Satra master painting mythical demon facial features"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Mask_of_Majuli_-_Hanuman-Monkey.jpg?width=800",
+            "caption": "Finished Hanuman mukha mask, Majuli"
       }
 ],
     culturalSignificance: "The masks embody the core aesthetic of Satthriya culture, where spirituality merges with performance. The actors inhabit the divine or demonic personas, moving flexible jaws and eyes during community temple theater.",
@@ -230,6 +185,68 @@ const ALL_INDIAN_ART_DATA = [
             "desc": "Painted with organic minerals: Hengul (red cinnabar), Haital (yellow orpiment), Indigo (blue), and soot lampblack."
       }
 ],
+    summary: "Traditional organic masks made of bamboo, clay from the Brahmaputra, cow dung, and vegetable dyes for the sacred Bhaona dance-dramas on Majuli, the world's largest river island.",
+    historicalContext: "Srimanta Sankardeva conceptualized Majuli masks to make spiritual epics visually accessible to everyone. The Chamaguri Satra monastery in Majuli has preserved this unbroken lineage for over 500 years.",
+    geographicSpread: "Cultivated across the Brahmaputra Valley of Assam; now recognized with a Geographical Indication (GI) tag and exhibited worldwide.",
+    techniquesAndPigments: "Pliant local bamboo splits form the 3D armature; covered with cloth dipped in alluvial clay and cow dung, then painted with natural dyes like Hengul (red vermilion) and Haital (yellow arsenic).",
+    keyMotifs: ["Ravana (with ten movable heads)", "Garuda the divine eagle", "Narasimha the half-man half-lion avatar", "Demons (Surpanakha, Kumbhakarna)"],
+    masterArtists: ["Dhiren Goswami (Padma Shri 2024)", "Hem Chandra Goswami (Sangeet Natak Akademi Awardee)", "Prabin Goswami"]
+  },
+  {
+    id: "bihar",
+    title: "Madhubani / Mithila Painting",
+    nativeName: "मिथिला चित्रकला",
+    state: "Bihar",
+    isUT: false,
+    region: "Madhubani, Darbhanga & Ranti",
+    coordinates: [26.3541, 86.0718],
+    category: "Folk & Tribal",
+    era: "Living Folk Tradition",
+    periodDetail: "Roots in ancient Mithila; documented in Ramayana; formalized 14th–20th Century",
+    artMovement: "Mithila Ritualistic Wall & Floor Art (Kohbar & Aripan)",
+    badgeColor: "#DC2626",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani_painting_by_Bhuvana_Meenakshi.jpg?width=1000",
+    gallery: [
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani_painting_by_Bhuvana_Meenakshi.jpg?width=1000",
+            "caption": "Madhubani painting with traditional motifs"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dilli_Haat_Madhubani_Mithila_Painting_Artist.jpg?width=800",
+            "caption": "Mithila artist painting at Dilli Haat"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani_Painting_Exhibition.jpg?width=800",
+            "caption": "Madhubani paintings on display"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani_paintings_or_Milithila_Painting-IMG_0103.jpg?width=800",
+            "caption": "Mithila-style painting detail"
+      }
+],
+    culturalSignificance: "Madhubani is inherently matrimonial, matriarchal, and sacred. The Kohbar ghar painting is blessed by the family women to invoke fertility, protection, and eternal cosmic harmony for newlywed couples.",
+    creationProcess: [
+      {
+            "step": 1,
+            "title": "Mud & Cowdung Wall Treatment",
+            "desc": "Traditionally walls were smeared with mud and cowdung paste; on paper, handmade sheets are treated with cowdung wash for an antique texture."
+      },
+      {
+            "step": 2,
+            "title": "Double-Line Outline",
+            "desc": "The artist paints parallel contour lines without prior pencil sketching using a dipped bamboo twig or metal nib."
+      },
+      {
+            "step": 3,
+            "title": "Hatching & Shading (Kachni & Bharni)",
+            "desc": "The inner zones are either filled with dense cross-hatching (Kachni) or saturated flat colors (Bharni)."
+      },
+      {
+            "step": 4,
+            "title": "Organic Pigment Application",
+            "desc": "Colors from lamp soot, turmeric, indigo, crushed marigolds, and kusum flowers are carefully laid down."
+      }
+],
     summary: "World-renowned folk idiom practiced by women of Mithila, marked by two-dimensional figures, intricate geometric hatching, and double-line contours filled with vivid plant dyes.",
     historicalContext: "Traditionally painted on mud walls during marriages, births, and festivals. Discovered globally after the 1934 Bihar earthquake revealed stunning interior chamber frescoes.",
     geographicSpread: "Covers Northern Bihar and extends into the southern Terai of Nepal; now globally exhibited in premier modern art museums.",
@@ -250,19 +267,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "4,000-year continuous metallurgy lineage dating back to the Indus Valley Civilisation",
     artMovement: "Indigenous Tribal Lost-Wax Metallurgy (Cire Perdue)",
     badgeColor: "#D97706",
-    heroImage: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dokra_from_tribes_of_Bastar_DSCN1172_01.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Bastar bronze processional elephant with intricate filigree details"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dokra_from_tribes_of_Bastar_DSCN1172_01.jpg?width=1000",
+            "caption": "Bastar Dhokra lost-wax bronze figures"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Ghadwa tribal craftsman preparing beeswax threads on wooden board"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dokra_from_tribes_of_Bastar_DSCN1172_02.jpg?width=800",
+            "caption": "Dhokra metalcraft detail, Bastar"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional open-air charcoal furnace casting molten bell metal"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dokra_from_tribes_of_Bastar_DSCN1172_03.jpg?width=800",
+            "caption": "Traditional Dhokra tribal figurines"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DHURWA_TRIBE_OF_BASTAR-INDIA.jpg?width=800",
+            "caption": "Dhurwa tribal community of Bastar, Chhattisgarh"
       }
 ],
     culturalSignificance: "Dhokra artifacts serve as ancestral clan deities (Danteshwari Devi, Budha Dev) and ceremonial wedding measuring bowls. Each bronze piece is unique because its individual clay-and-wax mold must be broken to retrieve the cast.",
@@ -308,19 +329,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "16th Century CE onwards during Konkan Temple and Indo-Portuguese Architecture",
     artMovement: "Konkan Red Laterite Sgraffito Architectural Art",
     badgeColor: "#991B1B",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kaavi_Art_in_the_Convent_of_Santa_Monica%2C_Old_Goa%2C_India..jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Kaavi mural on Ponda temple wall depicting Lord Krishna and Kaliya"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaavi_Art_in_the_Convent_of_Santa_Monica%2C_Old_Goa%2C_India..jpg?width=1000",
+            "caption": "Kaavi red-ochre sgraffito mural, Convent of Santa Monica"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Sgraffito etching in wet laterite clay plaster revealing white lime"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_art_on_an_arch%2C_with_Indo-Portuguese_-_Goan_influences_at_Convent_of_Santa_Monica%2C_Old_Goa.jpg?width=800",
+            "caption": "Indo-Portuguese Kaavi arch mural, Old Goa"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Intricate floral archway on historic 17th century Goan sanctuary"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_of_Bom_Jesus_25_Nov_2025.jpg?width=800",
+            "caption": "Baroque Portuguese-Goan church architecture"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_St.Augustine.jpg?width=800",
+            "caption": "Laterite stone church ruins, Old Goa"
       }
 ],
     culturalSignificance: "Kaavi is a synthesis of indigenous Konkan Shaivite/Vaishnavite traditions and Portuguese architectural geometry. It protected external masonry from torrential coastal rains while turning shrines into visual mythological bibles.",
@@ -367,19 +392,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Centuries-old Persian-origin craft; preserved exclusively in Kutch for over 300 years",
     artMovement: "Castor-Oil Thread Painting & Rathwa Tribal Murals",
     badgeColor: "#C026D3",
-    heroImage: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Rogan-art-Tree-of-Life-Abdul-Gafur-Khatri-29-12-2013.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Rogan Tree of Life spun with castor-oil pigment threads on silk"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rogan-art-Tree-of-Life-Abdul-Gafur-Khatri-29-12-2013.jpg?width=1000",
+            "caption": "Rogan Art Tree of Life by Abdul Gafur Khatri"
       },
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Master artisan Abdul Gafur Khatri manipulating oil paste with stylus"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rogan_painting.jpg?width=800",
+            "caption": "Rogan painting detail, Kutch"
       },
       {
-            "url": "https://images.unsplash.com/photo-1606744888344-493238955de0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Pithora ritual sacred horses painted on Rathwa tribal mud walls"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashish_shantilal_kansara_rogan_art_2.jpg?width=800",
+            "caption": "Rogan art in progress"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nirmika_Rogan_Art.jpg?width=800",
+            "caption": "Rogan art fabric painting"
       }
 ],
     culturalSignificance: "Historically used for bridal ghagras (skirts) and odhanis among pastoral Maldhari women. Pithora paintings in eastern Gujarat are animist thanksgiving rituals performed by the Rathwa community to honor the celestial wedding of Baba Pithora.",
@@ -425,19 +454,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Ancient agrarian harvest tradition; celebrated during autumn Navratri",
     artMovement: "Agrarian Folk Clay Sculpture & Paper-Cut Stencil Art",
     badgeColor: "#F59E0B",
-    heroImage: "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%9D%E0%A5%80_%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Mother Goddess Sanjhi sculpted in clay relief on cottage entrance"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%9D%E0%A5%80_%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE.jpg?width=1000",
+            "caption": "Sanjhi Mata folk stencil art"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Geometric cut-paper stencil design for ritual floral floor rangoli"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rain_Dance_A_performer_at_%27Surajkund_Crafts_Mela_2011%27%2C_Faridabad.jpg?width=800",
+            "caption": "Surajkund Crafts Mela, Haryana"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?auto=format&fit=crop&w=800&q=80",
-            "caption": "Village women gathering for evening devotional hymns during Navratri"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surajkund_mela.jpg?width=800",
+            "caption": "Folk artisans at Surajkund Crafts Mela"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Vice_President%2C_Shri_Mohd._Hamid_Ansari_at_the_24th_Surajkund_Crafts_Mela%2C_in_Surajkund%2C_Haryana_on_February_01%2C_2010.jpg?width=800",
+            "caption": "Surajkund International Crafts Mela, Haryana"
       }
 ],
     culturalSignificance: "Celebrates maternal benevolence, harvest prosperity, and the protection of young unmarried girls. Every evening of Navratri, village girls gather before the wall with oil lamps to sing songs asking Sanjhi Mata for blessings.",
@@ -483,19 +516,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Late 18th – Early 19th Century (Golden Age of Raja Sansar Chand)",
     artMovement: "Pahari Romantic Devotional Miniature School",
     badgeColor: "#9333EA",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Radha_Krishna%2C_19th_century_CE%2C_Kangra_School_of_Art%2C_Museum_of_Kangra_Art%2C_Dharamshala.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Radha and Krishna in flowering monsoon groves of the Kangra valley"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Radha_Krishna%2C_19th_century_CE%2C_Kangra_School_of_Art%2C_Museum_of_Kangra_Art%2C_Dharamshala.jpg?width=1000",
+            "caption": "Radha-Krishna, Kangra School miniature, 19th century"
       },
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Fine squirrel-hair brushwork on burnished Sialkoti wasli paper"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kangra_painting_of_a_darbar_%28court%29_scene_with_Sansar_Chand_of_Kangra_and_Jai_Singh_Kanhaiya%2C_circa_18th_or_19th_century.webp?width=800",
+            "caption": "Kangra court/darbar scene miniature"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Pahari Nayika longing for her beloved under moonlit pavilion"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Raja_Govardhan_Chand_of_Guler%2C_Kangra._He_ruled_Guler_state_from_1730%E2%80%931741.jpg?width=800",
+            "caption": "Pahari miniature of Raja Govardhan Chand, Guler-Kangra"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Ranbir_Chand_and_Pramod_Chand%2C_grandsons_of_Sansar_Chand._Kangra%2C_ca.1838.jpg?width=800",
+            "caption": "Kangra miniature portrait, circa 1838"
       }
 ],
     culturalSignificance: "Kangra art is visual Vaishnavite poetry. It visualizes the Sanskrit poetry of Jayadeva's Gita Govinda and Bihari's Satsai, elevating human romantic longing into a metaphor for the soul's divine yearning for God.",
@@ -541,19 +578,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Traced to Meso-Chalcolithic rock art (10,000 BCE); GI tagged in 2020",
     artMovement: "Indigenous Tribal Matriarchal Wall Art",
     badgeColor: "#15803D",
-    heroImage: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sohrai_painting%2C_Jharkhand.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Sohrai harvest mural depicting Pashupati lord of forest beasts"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sohrai_painting%2C_Jharkhand.jpg?width=1000",
+            "caption": "Sohrai mural painting, Jharkhand"
       },
       {
-            "url": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=800&q=80",
-            "caption": "Tribal matriarch scraping white kaolin with comb to reveal black clay"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basic_shapes_in_Sohrai_Painting.jpg?width=800",
+            "caption": "Sohrai painting motifs and shapes"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Hazaribagh forest cottage walls adorned with prehistoric motifs"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flowery_design_2_in_Sohrai_Painting.jpg?width=800",
+            "caption": "Floral Sohrai design detail"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sohrai_Flowery_Design_1.jpg?width=800",
+            "caption": "Sohrai wall art floral pattern"
       }
 ],
     culturalSignificance: "Represents an unbroken continuity of Paleolithic rock art traditions. Khovar is an intimate bridal chamber blessing invoking ancestral fertility, while Sohrai honors cattle, forest ecology, and wild animal spirits after the paddy harvest.",
@@ -599,19 +640,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Chittara has ancient tribal roots; Mysore painting flourished under Wodeyars (1799–1868)",
     artMovement: "Deewaru Agrarian Folk Art & Mysore Royal Sacred Iconography",
     badgeColor: "#0891B2",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mysore_Painting.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Mysore sacred gesso painting of Chamundeshwari with gold foil"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mysore_Painting.jpg?width=1000",
+            "caption": "Traditional Mysore gesso-gold painting"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Chittara geometric red and white ritual mural on Malnad mud wall"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mysore_painting.jpg?width=800",
+            "caption": "Mysore school painting with gold leaf relief"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Embossed gesso relief detailing under traditional glass frames"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganjifa_in_making.jpg?width=800",
+            "caption": "Ganjifa hand-painted playing cards craft, Mysore"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamadhenu_and_a_Brahmin_%286125146576%29.jpg?width=800",
+            "caption": "Traditional Mysore-style religious painting"
       }
 ],
     culturalSignificance: "Chittara folk murals celebrate the life cycle, agrarian blessings, and maternal lineage of the Deewaru community. Mysore traditional gesso paintings adorned royal assembly halls (durbar) and household puja sanctuaries.",
@@ -657,19 +702,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "9th – 18th Century CE (Golden era under Venad and Cochin royalty)",
     artMovement: "Panchavarna Sacred Temple Mural Tradition",
     badgeColor: "#16A34A",
-    heroImage: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kerala_Mural.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Panchavarna temple fresco of Shiva Nataraja at Padmanabhapuram"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerala_Mural.jpg?width=1000",
+            "caption": "Kerala Panchavarna temple mural"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Ananthashayanam mural depicting Vishnu reclining on serpent Shesha"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerala_Mural_Painting_on_Set_Mundu.jpg?width=800",
+            "caption": "Kerala mural painting applied to textile"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Master fresco painter mixing crushed minerals with tender coconut water"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyana_bhavanam_mural_painting.jpg?width=800",
+            "caption": "Kalyana Bhavanam mural, Kerala temple art"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Description_of_Gajendra_Moksham_mural_-_Krishnapuram_Palace%2C_Kayamkulam%2C_Alappuzha_District%2C_Kerala_State%2C_India.jpg?width=800",
+            "caption": "Gajendra Moksham mural, Krishnapuram Palace"
       }
 ],
     culturalSignificance: "Adorns the walls of royal palaces and temple sanctums, synthesizing Shaivite and Vaishnavite devotion with the expressive facial dynamics of Kathakali and Theyyam ritual theater.",
@@ -715,19 +764,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Ancient animist roots; revolutionized in the 1980s into a global contemporary art form",
     artMovement: "Jangarh Kalam (Contemporary Indigenous Visionary Art)",
     badgeColor: "#10B981",
-    heroImage: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2015.2.24_Durga_Bai_Gond.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=800&q=80",
-            "caption": "Sacred Mahua Tree alive with forest spirits and vibrant birds"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2015.2.24_Durga_Bai_Gond.jpg?width=1000",
+            "caption": "Gond painting by master artist Durga Bai"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Detailed Gond signature patterning of fine dots, scales, and dashes"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gond_Painting.JPG?width=800",
+            "caption": "Traditional Gond tribal painting"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Visionary depiction of cosmic animal deities by Jangarh Kalam masters"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gond_Painting_of_MP1.JPG?width=800",
+            "caption": "Gond art from Madhya Pradesh"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gond_Dance_-Traditional_Tribal_Dance_of_India_014.jpg?width=800",
+            "caption": "Gond community traditional dance, Madhya Pradesh"
       }
 ],
     culturalSignificance: "Gonds believe that viewing and creating beautiful sacred art brings good fortune. Each artist's unique dot-and-line signature is like their artistic fingerprint, representing their individual connection to Bada Dev and forest spirits.",
@@ -773,19 +826,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Rooted in Neolithic traditions (2500–3000 BCE); living continuity",
     artMovement: "Indigenous Tribal Animism & Harvest Ritual Murals",
     badgeColor: "#E11D48",
-    heroImage: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Warli_art_on_a_house_wall_at_Sanjay_Gandhi_National_Park.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Hypnotic Tarpa dance spiral moving around the central trumpeter"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Warli_art_on_a_house_wall_at_Sanjay_Gandhi_National_Park.jpg?width=1000",
+            "caption": "Warli mural on a village house wall"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Warli village harvest celebration with rice fields and cows"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Warli_art_at_Borivali_Stn_01.jpg?width=800",
+            "caption": "Warli tribal wall painting"
       },
       {
-            "url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
-            "caption": "Palaghata fertility goddess framed in sacred geometric square"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Warli_art_at_Borivali_Stn_02.jpg?width=800",
+            "caption": "Warli figures depicting daily rural life"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Warli_art_at_Borivali_Stn_03.jpg?width=800",
+            "caption": "Warli geometric ritual art"
       }
 ],
     culturalSignificance: "Celebrates the cosmic circle of life and harmonious coexistence with nature. The Tarpa circle dance reflects the non-hierarchical, egalitarian communal bonds of the Warli tribe, moving together in rhythm with nature.",
@@ -831,19 +888,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "15th–18th Century CE (During the reigns of Meitei Kings)",
     artMovement: "Meitei Illuminated Manuscript & Astrological Scroll Art",
     badgeColor: "#7C3AED",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Classical_Meitei_illuminated_manuscript_painting_%E2%80%94_depicting_a_%E2%80%9CPaphal%E2%80%9D_of_Khaba_serpentine_dragon_%E2%80%94_from_the_%E2%80%9CPakhangba_Lambuba%E2%80%9D%2C_an_Ancient_Meetei_language_text_%28engraved_in_traditional_Meetei_Mayek_writing_system%29.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Illuminated Subika manuscript painting on agarwood bark paper"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Classical_Meitei_illuminated_manuscript_painting_%E2%80%94_depicting_a_%E2%80%9CPaphal%E2%80%9D_of_Khaba_serpentine_dragon_%E2%80%94_from_the_%E2%80%9CPakhangba_Lambuba%E2%80%9D%2C_an_Ancient_Meetei_language_text_%28engraved_in_traditional_Meetei_Mayek_writing_system%29.jpg?width=1000",
+            "caption": "Classical Meitei manuscript painting, Pakhangba Lambuba"
       },
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Pakhangba the celestial horned dragon deity of Manipur"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Classical_Meitei_illuminated_manuscript_painting_%E2%80%94_depicting_a_%E2%80%9CPaphal%E2%80%9D_of_Khuman_serpentine_dragon_%E2%80%94_from_the_%E2%80%9CPakhangba_Lambuba%E2%80%9D%2C_an_Ancient_Meetei_language_text_%28engraved_in_traditional_Meetei_Mayek_writing_system%29.jpg?width=800",
+            "caption": "Meitei illuminated manuscript, serpentine dragon motif"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional Meitei warrior martial poses depicted in astrological charts"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Classical_Meitei_illuminated_manuscript_painting_%E2%80%94_depicting_a_%E2%80%9CPaphal%E2%80%9D_of_Luwang_dragon_%E2%80%94_from_the_%E2%80%9CPakhangba_Lambuba%E2%80%9D%2C_an_Ancient_Meetei_language_text_%28engraved_in_traditional_Meetei_Mayek_writing_system%29.jpg?width=800",
+            "caption": "Meitei manuscript painting, Luwang dragon"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Classical_Meitei_illuminated_manuscript_painting_%E2%80%94_depicting_a_%E2%80%9CPaphal%E2%80%9D_of_Ningthouja_Pakhangba_dragon_%E2%80%94_from_the_%E2%80%9CPakhangba_Lambuba%E2%80%9D%2C_an_Ancient_Meetei_language_text_%28engraved_in_traditional_Meetei_Mayek_writing_system%29.jpg?width=800",
+            "caption": "Meitei manuscript art, Pakhangba dragon motif"
       }
 ],
     culturalSignificance: "Subika manuscripts and Meitei art encode ancient cosmological lore, genealogy, and royal astrology. The sacred dragon Pakhangba is worshipped as the divine progenitor of the royal Ningthouja dynasty.",
@@ -889,19 +950,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Indigenous tribal ancestral traditions spanning centuries",
     artMovement: "Living Organic Cane Architecture & Eri Silk Fiber Art",
     badgeColor: "#059669",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kasi_handicrafts.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Intricately woven Khasi cane rain shield (Knup) engineered for monsoons"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasi_handicrafts.jpg?width=1000",
+            "caption": "Khasi bamboo and cane handicrafts"
       },
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Sacred Ryndia Eri silk handwoven with botanical plant dyes"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Living_root_bridge%2C_Maghalaya%2C_India1.jpg?width=800",
+            "caption": "Living root bridge, traditional Khasi engineering craft"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Carved wooden pillars and sacred horns on Garo community houses"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Living_root_bridge%2C_Maghalaya%2C_India2.jpg?width=800",
+            "caption": "Khasi living root bridge, Meghalaya"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Living_root_bridge%2C_Maghalaya%2C_India3.jpg?width=800",
+            "caption": "Cane and root craftsmanship, Meghalaya"
       }
 ],
     culturalSignificance: "Showcases the profound ecological harmony of the matrilineal Khasi, Jaintia, and Garo clans. Crafting items from bamboo and Ahimsa eri silk is an ancestral expression of respect for sacred groves (Law Kyntang).",
@@ -947,19 +1012,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Unbroken ancestral textile tradition; multiple GI tags granted in 2019",
     artMovement: "Indigenous Geometric Ceremonial Loom Weaving",
     badgeColor: "#DB2777",
-    heroImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_President%2C_Smt._Pratibha_Devisingh_Patil_visited_the_Handloom_%26_Handicrafts_exhibition_at_Aizawl%2C_Mizoram_on_September_23%2C_2010.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Mizo Puanchei ceremonial textile with red, black, and white geometry"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_President%2C_Smt._Pratibha_Devisingh_Patil_visited_the_Handloom_%26_Handicrafts_exhibition_at_Aizawl%2C_Mizoram_on_September_23%2C_2010.jpg?width=1000",
+            "caption": "Mizo handloom and handicrafts exhibition, Aizawl"
       },
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional loin-loom weaver in Thenzawl heritage village"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_President%2C_Smt._Pratibha_Devisingh_Patil_visited_the_Handloom_%26_Handicrafts_exhibition_at_Aizawl%2C_Mizoram_on_September_23%2C_2010_%281%29.jpg?width=800",
+            "caption": "Mizoram handloom weaving display"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Delicate geometric diamond patterns woven with extra-weft insertion"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_President%2C_Smt._Pratibha_Devisingh_Patil_visiting_the_Handloom_%26_Handicrafts_exhibition_at_Aizawl%2C_Mizoram_on_September_23%2C_2010.jpg?width=800",
+            "caption": "Mizoram handicrafts and handloom exhibits"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_artists_performing_a_dance_%E2%80%98Cheraw_Kanpui%E2%80%99_during_the_inauguration_of_the_Chapchar_Kut_-2010_festivals_celebration%2C_in_Aizawl%2C_Mizoram_on_March_11%2C_2010.jpg?width=800",
+            "caption": "Cheraw bamboo dance, Chapchar Kut festival"
       }
 ],
     culturalSignificance: "Puan handloom textiles are the visual identity of Mizo society. Historically, distinct patterns indicated bravery, clan standing, and marital honor, and remain central to all major festivals such as Chapchar Kut.",
@@ -1005,19 +1074,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Centuries-old warrior clan traditions of 16 major tribes",
     artMovement: "Tribal Warrior Morung Architecture & Symbolist Weaving",
     badgeColor: "#B91C1C",
-    heroImage: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Naga_handicraft.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Monumental wooden Morung pillar carved with Mithun horns and tigers"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naga_handicraft.jpg?width=1000",
+            "caption": "Naga tribal handicraft"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Konyak tribal warrior woodcarvings and facial tattoo iconography"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Nagas_woodcarving.JPG?width=800",
+            "caption": "Naga warrior woodcarving"
       },
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Tsungkotepsu warrior shawl painted with roosters and ceremonial spears"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/021_Naga_Wood_Carving%2C_Pura_Sakenan%2C_Serangan%2C_Bali%2C_photograph_by_Anandajoti_Bhikkhu.jpg?width=800",
+            "caption": "Naga-influenced wood carving craftsmanship"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naga_Tribe_Traditional_Shawl.jpg?width=800",
+            "caption": "Traditional Naga warrior shawl"
       }
 ],
     culturalSignificance: "Naga carvings on Morungs (youth dormitories) and warrior shawls celebrated clan defense, agricultural fertility, and ancestral courage. The mithun head symbolizes wealth, while hornbill feathers honor high social status.",
@@ -1063,19 +1136,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "12th Century CE onwards (Tied to the sacred Jagannath Temple at Puri)",
     artMovement: "Odishan Vaishnavite Temple Scroll Painting & Tala Pattachitra",
     badgeColor: "#059669",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pattachitra_Painting_%2816419912954%29.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Classical Pattachitra of Jagannath triad with ornate floral borders"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pattachitra_Painting_%2816419912954%29.jpg?width=1000",
+            "caption": "Odisha Pattachitra scroll painting"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Tala Pattachitra palm leaf incised with iron stylus and lampblack"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pattachitra_Painting_%2816419923734%29.jpg?width=800",
+            "caption": "Traditional Pattachitra on cloth"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Raghurajpur heritage village artisan painting with mouse-hair brush"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pattachitra_Painting_%2817041543331%29.jpg?width=800",
+            "caption": "Pattachitra mythological narrative panel"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pattachitra_Painting_%2817042344385%29.jpg?width=800",
+            "caption": "Pattachitra painting detail, Odisha"
       }
 ],
     culturalSignificance: "Pattachitra is deeply sacred to Lord Jagannath of Puri. The Chitrakara community has maintained this continuous ritual service for nearly a millennium, also preserving ancient palm-leaf engraving (Tala Pattachitra).",
@@ -1121,19 +1198,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Documented since the 15th-century Heer Ranjha; murals flourished under Maharaja Ranjit Singh",
     artMovement: "Folk Geometrical Silk Embroidery & Lahore-Amritsar Sikh School",
     badgeColor: "#E11D48",
-    heroImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Embroidery_on_a_shawl_from_Punjab_01.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Golden yellow silk floss Bagh phulkari embroidered on red khaddar"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Embroidery_on_a_shawl_from_Punjab_01.jpg?width=1000",
+            "caption": "Phulkari embroidery on a Punjabi shawl"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Intricate geometric darning stitch executed entirely from the reverse"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Embroidery_on_a_shawl_from_Punjab_05.jpg?width=800",
+            "caption": "Detail of Phulkari floral embroidery"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Historic Sikh fresco panels from Qila Mubarak palace pavilions"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Embroidery_on_a_shawl_from_Punjab_06.jpg?width=800",
+            "caption": "Phulkari geometric embroidery pattern"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Embroidery_on_a_shawl_from_Punjab_07.jpg?width=800",
+            "caption": "Traditional Punjabi Phulkari textile"
       }
 ],
     culturalSignificance: "Phulkari embodies familial love and generational blessing. When a baby girl is born, her grandmother begins embroidering a golden silk 'Bagh' (garden) that takes years to complete, presented as her wedding dowry heirloom.",
@@ -1179,19 +1260,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "17th Century CE onwards (Pushtimarg Vallabhacharya and nomadic Bhopa bards)",
     artMovement: "Nathdwara Temple Haveli Art & Rajasthani Bardic Mobile Scrolls",
     badgeColor: "#F59E0B",
-    heroImage: "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pichwai_by_unknown_Rajasthani_artist.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Shrinathji Pichwai with Govardhan Leela and Kamadhenu cows"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pichwai_by_unknown_Rajasthani_artist.jpg?width=1000",
+            "caption": "Pichwai painting, Rajasthan"
       },
       {
-            "url": "https://images.unsplash.com/photo-1606744888344-493238955de0?auto=format&fit=crop&w=800&q=80",
-            "caption": "30-foot narrative Phad scroll illustrating the epic of Pabuji Rathore"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pichwai_painting%2C_made_in_net%2C_National_Museum%2C_New_Delhi.jpg?width=800",
+            "caption": "Net Pichwai painting, National Museum"
       },
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Nathdwara Chitrakar master burnishing gold foil lotus ponds"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp_of_India_-_1992_-_Colnect_164323_-_Phad_Scroll_Paintings_from_Rajasthan.jpeg?width=800",
+            "caption": "Phad scroll painting, commemorative stamp"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Playful_Gifts_and_other_Gopi_Scenes%2C_%27pichwai%27_from_Golconda%2C_India%2C_late_17th_century%2C_dyed_cotton_with_polychrome_and_gold%2C_Honolulu_Academy_of_Arts.jpg?width=800",
+            "caption": "17th-century Pichwai textile, Gopi scenes"
       }
 ],
     culturalSignificance: "Pichwais transform temple sanctums into heavenly Vrindavan for Shrinathji. Phad scrolls serve as traveling shrines for nomadic Bhopa bards who sing folklore through the night under desert stars.",
@@ -1237,19 +1322,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Flourished with the establishment of Namgyal Dynasty monasteries (1642 CE)",
     artMovement: "Tibetan-Sikkimese Mahayana Sacred Thangka Painting",
     badgeColor: "#D97706",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thangka_at_Ralang_Monastery_sikkim.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Bhavachakra Wheel of Life Thangka painted with crushed coral and gold"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thangka_at_Ralang_Monastery_sikkim.jpg?width=1000",
+            "caption": "Thangka at Ralang Monastery, Sikkim"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Monk artisan at Rumtek monastery outlining sacred mandala geometry"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thangkas_at_Ralang_Monastery.jpg?width=800",
+            "caption": "Buddhist thangkas, Ralang Monastery"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Carved Himalayan woodblock prints for sacred prayer flags"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thanka_painting.jpg?width=800",
+            "caption": "Sikkimese Buddhist thangka painting"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trungkar_Tsechu_festival.jpg?width=800",
+            "caption": "Tsechu festival, Sikkim monastery"
       }
 ],
     culturalSignificance: "Thangkas serve as sacred visual manuals for meditation inside Tibetan Buddhist monasteries (Gumpas). They embody the sacred geometry of enlightenment, guiding spiritual practitioners toward inner peace.",
@@ -1295,19 +1384,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Bronzes: 9th–13th c. (Imperial Cholas); Paintings: 16th–18th c. (Nayakas & Maratha King Serfoji II)",
     artMovement: "Dravidian Lost-Wax Bronze Casting & Gesso Gold Leaf Panel Painting",
     badgeColor: "#B45309",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Natarajar_Tanjore_painting.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Thanjavur painting of Bala Krishna with 22K gold foil and gems"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Natarajar_Tanjore_painting.jpg?width=1000",
+            "caption": "Nataraja Tanjore painting with gold relief"
       },
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Chola lost-wax bronze of Shiva Nataraja the Cosmic Dancer"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gajalakshmi_in_Tanjore_Painting.png?width=800",
+            "caption": "Gajalakshmi Tanjore painting"
       },
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "Brihadeeswarar temple sanctum and Maratha court art collections"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanjore_Painting_Vinayaka_2.jpg?width=800",
+            "caption": "Ganesha Tanjore painting"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanjore_Painting_Vinyaka.jpg?width=800",
+            "caption": "Thanjavur painting with gemstone and gold foil work"
       }
 ],
     culturalSignificance: "Thanjavur paintings and Chola bronzes represent the zenith of South Indian temple arts. They brought the divine into visual reality, capturing cosmic philosophical concepts such as Shiva's cosmic dance (Ananda Tandava).",
@@ -1353,19 +1446,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "15th Century CE onwards (Kakatiya and Qutb Shahi Periods; GI tagged)",
     artMovement: "Telangana Village Bardic Narrative (Nakashi Tradition)",
     badgeColor: "#7C3AED",
-    heroImage: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cherial_1.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Cheriyal narrative scroll panel with brilliant scarlet red background"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cherial_1.jpg?width=1000",
+            "caption": "Cheriyal scroll painting, Telangana"
       },
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Lightweight character masks molded from sawdust and tamarind paste"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cherial_2.jpg?width=800",
+            "caption": "Cheriyal Nakashi narrative scroll"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Nakashi master artisan outlining epic Telangana village folklore"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cherial_4.jpg?width=800",
+            "caption": "Cheriyal scroll painting detail"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cherial_5.jpg?width=800",
+            "caption": "Traditional Cheriyal art panel"
       }
 ],
     culturalSignificance: "Cheriyal scrolls and masks are the heart of Telangana's traditional village theater. Traveling bards recited folklore customized for various artisan castes, creating social harmony and moral education.",
@@ -1411,19 +1508,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Ancestral royal Manikya kingdom heritage & 7th–9th century Unakoti rock carvings",
     artMovement: "Indigenous Bamboo Sculpture & Bas-Relief Rock Carvings",
     badgeColor: "#0D9488",
-    heroImage: "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_weaving_traditional_garment_Rignai_in_Gandacherra_Dhalai_Tripura_India.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Colossal 30-foot rock-carved face of Unakotiswara Kal Bhairava"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_weaving_traditional_garment_Rignai_in_Gandacherra_Dhalai_Tripura_India.jpg?width=1000",
+            "caption": "Weaving a traditional Rignai garment, Tripura"
       },
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Tripuri master carving intricate bamboo lampshades and screens"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miss_Rina_Chakma%2C_an_artisan_from_South_Tripura_district_of_Tripura_is_a_National_Awardee_in_respect_of_Handloom_Sector_for_the_year_2002_for_her_delicate_work.jpg?width=800",
+            "caption": "National award-winning Tripura handloom artisan"
       },
       {
-            "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional Rignai wrap handwoven with indigenous geometric motifs"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tripura_Handloom%2C_Srimangal%2C_2010_by_Biplob_Rahman.jpg?width=800",
+            "caption": "Tripura handloom weaving pattern"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ujjayanta_Palace_as_seen_from_the_midpoint_of_the_avenue_01.JPG?width=800",
+            "caption": "Ujjayanta Palace, royal seat of Tripura heritage"
       }
 ],
     culturalSignificance: "Celebrates the rich cultural encounters between tribal indigenous life and the royal Manikya kingdom. Giant rock-cut carvings at Unakoti embody the presence of Shiva amidst the sacred hills.",
@@ -1469,19 +1570,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "1550 – 1750 CE (Imperial Ateliers of Akbar, Jahangir, and Shah Jahan)",
     artMovement: "Indo-Persian Imperial Realism & Braj Cut-Paper Stencils",
     badgeColor: "#D97706",
-    heroImage: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Govardhan._Jahangir_Visiting_the_Ascetic_Jadrup._ca._1616-20%2C_Musee_Guimet%2C_Paris.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Mughal imperial court miniature with gold illuminated floral borders"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Govardhan._Jahangir_Visiting_the_Ascetic_Jadrup._ca._1616-20%2C_Musee_Guimet%2C_Paris.jpg?width=1000",
+            "caption": "Mughal miniature painting, Emperor Jahangir, circa 1620"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Ustad Mansur's zoological masterpiece depicting exotic birds"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Mughal_Painting_showing_a_Hunting_Scene%2C_circa_17th_century%2C_Chandigarh_Museum.jpg?width=800",
+            "caption": "Mughal court miniature, hunting scene"
       },
       {
-            "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Delicate Mathura Sanjhi paper-cut stencil of Krishna's Raas Leela"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel_on_a_Composite_Animal%2C_Mughal_Painting_circa_16th_century%2C_Chandigarh_Museum.jpg?width=800",
+            "caption": "Composite-animal Mughal miniature painting, 16th century"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque_Scene%2C_Based_on_the_Persian_Manuscript_Tawarikh-i-Alfi%2C_History_of_the_thousand_years%2C_circa_1595_CE%2C_Mughal_Miniature_Painting._National_Museum%2C_Delhi.16th_century.jpg?width=800",
+            "caption": "Mughal miniature manuscript painting, 1595 CE"
       }
 ],
     culturalSignificance: "Mughal miniatures chronicle imperial history, philosophy, and zoology, fusing Persian, Hindu, and European aesthetics. Nearby in Mathura, Sanjhi paper-cut stencils are a devotional offering of love for Lord Krishna.",
@@ -1527,19 +1632,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Practiced since the Chand Dynasty of Kumaon (10th–18th Century CE; GI tagged)",
     artMovement: "Kumaoni Matriarchal Ritual Floor & Threshold Art",
     badgeColor: "#BE123C",
-    heroImage: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Aipan_art.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Aipan sacred Lakshmi footprints and geometric chowki on red threshold"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aipan_art.jpg?width=1000",
+            "caption": "Aipan ritual floor art, Uttarakhand"
       },
       {
-            "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Kumaoni artisan painting freehand with rice paste (Biswar)"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aipan_folk_art.jpg?width=800",
+            "caption": "Traditional Aipan folk motifs"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?auto=format&fit=crop&w=800&q=80",
-            "caption": "Saraswati and Surya Chowki ritual diagram for naming ceremonies"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aipan_design_.jpg?width=800",
+            "caption": "Aipan geometric design detail"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakshmi-maa.jpg?width=800",
+            "caption": "Aipan-adjacent ritual folk imagery, Uttarakhand"
       }
 ],
     culturalSignificance: "Aipan is a sacred ritual floor art created by women of Kumaon to sanctify the home, honor visiting deities, and invoke the blessings of Goddess Lakshmi during weddings and festivals.",
@@ -1585,19 +1694,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "19th Century CE (c. 1830–1930) in colonial Calcutta; living continuity in Pingla",
     artMovement: "Urban Folk Realism, Social Satire & Medinipur Scroll Singing",
     badgeColor: "#E11D48",
-    heroImage: "https://images.unsplash.com/photo-1582560475093-ba66accbc424?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/India%2C_Calcutta%2C_Kalighat_painting%2C_19th_century_-_Kalighat_Painting_-_2003.124_-_Cleveland_Museum_of_Art.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?auto=format&fit=crop&w=800&q=80",
-            "caption": "Kalighat watercolor of Goddess Kali with dramatic fluid brushwork"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/India%2C_Calcutta%2C_Kalighat_painting%2C_19th_century_-_Kalighat_Painting_-_2003.124_-_Cleveland_Museum_of_Art.jpg?width=1000",
+            "caption": "19th-century Kalighat painting, Cleveland Museum of Art"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-            "caption": "Satirical depiction of the Calcutta Babu smoking a hookah"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/India%2C_Calcutta%2C_Kalighat_painting%2C_19th_century_-_Trivikramapada_%28Three_Steps_of_Vishnu%29_-_2003.165_-_Cleveland_Museum_of_Art.jpg?width=800",
+            "caption": "Kalighat painting, Trivikramapada theme"
       },
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Naya village (Pingla) Patua scroll singer performing with scroll"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Radha-_Krishna%2C_Kalighat_Painting.jpg?width=800",
+            "caption": "Radha-Krishna Kalighat painting"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalighat%2C_Kolkata_%28Calcutta%29%2C_West_Bengal%2C_India_-_Kali_-_Google_Art_Project.jpg?width=800",
+            "caption": "Kalighat painting of Goddess Kali"
       }
 ],
     culturalSignificance: "Kalighat painting captured the birth of modern urban India in colonial Calcutta. It satirical portrayed social changes, while Bengal Patachitra preserves village scroll-singing traditions.",
@@ -1645,19 +1758,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Indigenous tribal ancestral traditions practiced for thousands of years",
     artMovement: "Island Tribal Woodcraft & Mother-of-Pearl Shell Art",
     badgeColor: "#0284C7",
-    heroImage: "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/A_Nicobarese_canoe_at_Nancowry.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Nicobarese hand-carved outrigger canoe (Hodi) on tropical waters"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Nicobarese_canoe_at_Nancowry.jpg?width=1000",
+            "caption": "Traditional Nicobarese outrigger canoe, Nancowry"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Polished mother-of-pearl sea shell relief carvings and jewelry"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Andamanese_-_boats_1875.jpg?width=800",
+            "caption": "Great Andamanese traditional boats, 1875 illustration"
       },
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Woven pandanus leaf tribal mat with geometric diamond totems"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Andaman_Islanders_fig_44.png?width=800",
+            "caption": "Andaman Islander craft, historical illustration"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicobari_dance.jpg?width=800",
+            "caption": "Traditional Nicobari dance"
       }
 ],
     culturalSignificance: "Harmonizes indigenous tribal life with the marine ecology of the Indian Ocean. Hodi canoes are engineered with nautical wisdom, while shell carvings reflect deep respect for marine life.",
@@ -1703,19 +1820,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Created 1957–1975 CE secretly by visionary artist Nek Chand",
     artMovement: "Visionary Outsider Art & Eco-Folk Mosaic Sculpture",
     badgeColor: "#6B7280",
-    heroImage: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_-_01_%2826504606715%29.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Procession of dancing village sculptures created from broken bangles"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_-_01_%2826504606715%29.jpg?width=1000",
+            "caption": "Recycled-material sculpture, Nek Chand Rock Garden"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Cascading waterfalls and courtyard arches built from discarded slag"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scene_at_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_-_02_%2825901815083%29.jpg?width=800",
+            "caption": "Mosaic figures at Rock Garden, Chandigarh"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?auto=format&fit=crop&w=800&q=80",
-            "caption": "Mosaic animals and soldiers made from shattered ceramic porcelain"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_Garden_Memory_Stone%2C_Chandigarh%2C_India.jpg?width=800",
+            "caption": "Rock Garden memorial stone, Chandigarh"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nek_Chand_par_Gilles_Probst.jpg?width=800",
+            "caption": "Nek Chand, creator of the Rock Garden"
       }
 ],
     culturalSignificance: "A triumph of visionary folk outsider art and environmental conservation. Nek Chand built a mythical kingdom secretly over 18 years, recycling construction waste from the modern capital into immortal art.",
@@ -1761,19 +1882,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "16th Century Portuguese colonial contact fused with indigenous Warli traditions",
     artMovement: "Indo-Portuguese Maritime Carving & Forest Tribal Art",
     badgeColor: "#059669",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Diu_Fort_From_the_Cannon_Barrel.JPG?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Baroque woodcarvings inside historic Daman church sanctuaries"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diu_Fort_From_the_Cannon_Barrel.JPG?width=1000",
+            "caption": "Diu Fort, Portuguese colonial architecture"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Diu mother-of-pearl jewelry box with maritime inlay details"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diu_Fortress%2C_Jan._2010.jpg?width=800",
+            "caption": "Diu Fortress exterior view"
       },
       {
-            "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-            "caption": "Warli tribal murals on forest cottages in Silvassa hinterlands"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diu_Fortress%2C_fort_interior.jpg?width=800",
+            "caption": "Interior of Diu Fortress"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diu_fort_Diu_india.jpg?width=800",
+            "caption": "Diu Fort coastal architecture"
       }
 ],
     culturalSignificance: "Blends Portuguese colonial baroque woodwork with Gujarati craftsmanship and Warli tribal folk wall traditions, capturing the maritime heritage of the Arabian Sea.",
@@ -1819,19 +1944,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "17th–19th Century CE (Flourished under Shah Jahan and Late Mughal Courts)",
     artMovement: "Delhi Late Mughal School & Ivory Miniature Painting",
     badgeColor: "#D97706",
-    heroImage: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_in_Delhi_9_-_miniature_%2828196632327%29.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Shahjahanabad imperial portrait miniature on ivory with gold leaf"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_in_Delhi_9_-_miniature_%2828196632327%29.jpg?width=1000",
+            "caption": "Mughal miniature painting, National Museum, Delhi"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Meenakari gold enameling with brilliant ruby reds and peacock blues"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque_Scene%2C_Based_on_the_Persian_Manuscript_Tawarikh-i-Alfi%2C_History_of_the_thousand_years%2C_circa_1595_CE%2C_Mughal_Miniature_Painting._National_Museum%2C_Delhi.16th_century.jpg?width=800",
+            "caption": "Imperial Mughal miniature, National Museum Delhi"
       },
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Architectural elevations of Red Fort and Jama Masjid illuminated in gold"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah_Alam_II_%281759-1806%29%2C_the_blind_mughal_Emperor%2C_seated_on_a_golden_throne..jpg?width=800",
+            "caption": "Mughal Emperor Shah Alam II, imperial miniature"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Himachali_Gold_Necklace_with_Meenakari%2C_Kangra_Culture%2C_Himachal_Pradesh.jpg?width=800",
+            "caption": "Meenakari enamelled gold jewellery"
       }
 ],
     culturalSignificance: "The Mughal imperial ateliers in Shahjahanabad reached supreme heights of luxury, producing manuscript paintings and vitreous enamels (Meenakari) that served as diplomatic gifts across Europe and Asia.",
@@ -1877,19 +2006,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Papier-mâché introduced 14th c. by Mir Sayyid Ali Hamadani; Basohli 17th c. Raja Kirpal Pal",
     artMovement: "Kari-Kalamdani (Pen-case art) & Basohli Fierce Devotional Miniatures",
     badgeColor: "#7C3AED",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/19th-century_papier-m%C3%A2ch%C3%A9_bowl_from_Kashmir_01.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Kashmiri papier-m\u00e2ch\u00e9 box with Gul-o-Bulbul rose and nightingale motif"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/19th-century_papier-m%C3%A2ch%C3%A9_bowl_from_Kashmir_01.jpg?width=1000",
+            "caption": "19th-century Kashmiri papier-mâché bowl"
       },
       {
-            "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-            "caption": "Basohli miniature painting adorned with iridescent beetle wings"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/19th-century_papier-m%C3%A2ch%C3%A9_bowl_from_Kashmir_02.jpg?width=800",
+            "caption": "Hand-painted Kashmiri papier-mâché detail"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Master Naqqash applying pure 24K liquid gold illumination"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kashmir_papier-m%C3%A2ch%C3%A9_trinket_boxes.jpg?width=800",
+            "caption": "Kashmiri papier-mâché trinket boxes"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Papier_mache_goods%2C_Kashmir_%288141417742%29.jpg?width=800",
+            "caption": "Kashmiri papier-mâché craft goods"
       }
 ],
     culturalSignificance: "Kashmiri papier-m\u00e2ch\u00e9 reflects the paradise gardens of Kashmir. Brought along the Silk Road from Samarkand, it became famous in royal courts for exquisite jewel caskets and pen-cases (Qalamdani).",
@@ -1935,19 +2068,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "11th Century CE onwards (Alchi Chos-khor founded by Rinchen Zangpo)",
     artMovement: "Indo-Tibetan Western Himalayan Sacred Mural Tradition",
     badgeColor: "#EA580C",
-    heroImage: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_painting_inside_the_Saspol_Cave%2C_Ladakh_02.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-            "caption": "11th-century Alchi monastery fresco of Tara with Kashmiri textile motifs"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_painting_inside_the_Saspol_Cave%2C_Ladakh_02.jpg?width=1000",
+            "caption": "Buddhist fresco, Saspol Cave, Ladakh"
       },
       {
-            "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-            "caption": "Cosmic Mandala of Vairochana surrounded by Dhyani Buddhas"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phyang_Monastery%2C_Ladakh_01.jpg?width=800",
+            "caption": "Phyang Monastery, Ladakh"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Colossal appliqu\u00e9 thangkas unrolled during the sacred Hemis festival"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phyang_Monastery%2C_Ladakh_02.jpg?width=800",
+            "caption": "Monastery mural detail, Phyang, Ladakh"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phyang_Monastery%2C_Ladakh_03.jpg?width=800",
+            "caption": "Thangka and fresco art, Phyang Monastery"
       }
 ],
     culturalSignificance: "Alchi and Hemis monastery frescoes represent a rare, miraculously preserved 11th-century Indo-Tibetan Buddhist artistic synthesis that survived in Ladakh's high cold desert.",
@@ -1993,19 +2130,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "17th Century CE Ujra Mosque masonry to contemporary maritime island crafts",
     artMovement: "Maritime Coral Architecture & Island Fiber Craft",
     badgeColor: "#0891B2",
-    heroImage: "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lakshadweep_Islands%2C_India_%28MODIS_2015-01-14%29.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Intricate coral limestone relief carvings on 17th-century Ujra Mosque"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakshadweep_Islands%2C_India_%28MODIS_2015-01-14%29.jpg?width=1000",
+            "caption": "Lakshadweep coral atolls, satellite view"
       },
       {
-            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-            "caption": "Geometric woven coir fiber carpets and coconut craft"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakshadweep_Islands_-_NASA_Earth_Observatory.jpg?width=800",
+            "caption": "Lakshadweep islands and lagoons"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "Traditional carved wooden Jahadhoni racing boat miniature"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coral_Reef_Under_the_Ocean.jpg?width=800",
+            "caption": "Coral reef, Lakshadweep waters"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthias_coral_reef_fish.jpg?width=800",
+            "caption": "Coral reef marine life, Lakshadweep"
       }
 ],
     culturalSignificance: "The Ujra Mosque in Kavaratti and Minicoy crafts represent centuries of oceanic Islamic architectural heritage, using local coral limestone blocks carved with floral and geometric arabesques.",
@@ -2051,19 +2192,23 @@ const ALL_INDIAN_ART_DATA = [
     periodDetail: "Centuries-old heritage (GI tagged in 2011); enriched by modern ceramic movements in Auroville",
     artMovement: "Dravidian Temple Terracotta & Indo-French Ceramic Arts",
     badgeColor: "#EA580C",
-    heroImage: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Windows_of_Pondicherry_-_White_wall%2C_Blue_window_and_Terracotta_roof.jpg?width=1000",
     gallery: [
       {
-            "url": "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-            "caption": "Colossal sacred Aiyanar terracotta horse with ceremonial garlands"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Windows_of_Pondicherry_-_White_wall%2C_Blue_window_and_Terracotta_roof.jpg?width=1000",
+            "caption": "French-Creole terracotta roof and architecture, Pondicherry"
       },
       {
-            "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
-            "caption": "French-Creole glazed stoneware ceramic vase from Auroville studios"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puducherry_Franco-Tamil_house.jpg?width=800",
+            "caption": "Franco-Tamil colonial house, Puducherry"
       },
       {
-            "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
-            "caption": "Villianur master potter throwing green clay on traditional stone wheel"
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bharathi_Park_in_Puducherry.JPG?width=800",
+            "caption": "Bharathi Park, Puducherry heritage quarter"
+      },
+      {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PONDICHERRY_BHARATHI_PARK.JPG?width=800",
+            "caption": "Puducherry French Quarter park"
       }
 ],
     culturalSignificance: "Villianur terracotta honors village guardian deities such as Lord Aiyanar, while Pondicherry's French Quarter and Auroville fostered a world-renowned contemporary studio pottery movement.",
