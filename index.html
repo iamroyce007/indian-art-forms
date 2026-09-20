@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Art Forms Interactive Map by Anirudh Ramakrishnan RA2411003012138</title>
+  <meta name="description" content="Interactive digital map exploring Indian art history across all 28 States and 8 Union Territories by Anirudh Ramakrishnan (RA2411003012138).">
+
+  <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet.js Cartography CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- Application Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top App Navigation Header -->
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <div class="brand-icon">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        </svg>
+      </div>
+      <div>
+        <h1 class="brand-title">INDIA ART FORMS INTERACTIVE MAP</h1>
+        <div class="brand-subtitle">
+          By <strong>Anirudh Ramakrishnan</strong> &bull; Reg No: <span class="student-reg-tag">RA2411003012138</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Engine -->
+    <div class="search-container">
+      <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="search-input" class="search-input" placeholder="Search by art form, state, motif, technique, or artist..." aria-label="Search art forms">
+    </div>
+
+    <!-- Actions & Tools -->
+    <div class="header-actions">
+      <button id="toggle-routes-btn" class="action-btn active" title="Toggle Cultural Diffusion & Trade Migration Paths">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+          <path d="M14 4l2.29 2.29-2.88 2.88 1.42 1.42 2.88-2.88L20 10V4zm-4 0H4v6l2.29-2.29 4.71 4.7 1.42-1.41-4.71-4.71zm0 16l-2.29-2.29 2.88-2.88-1.42-1.42-2.88 2.88L4 14v6zm4 0h6v-6l-2.29 2.29-4.71-4.7-1.42 1.41 4.71 4.71z"/>
+        </svg>
+        <span>Art Spread Routes</span>
+      </button>
+
+      <button id="open-trails-btn" class="action-btn" title="Explore Curated Guided Art Tours">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        </svg>
+        <span>Guided Trails</span>
+      </button>
+
+      <button id="open-quiz-btn" class="action-btn primary" title="Test Your Knowledge of Indian Art Forms">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+        </svg>
+        <span>Knowledge Quiz</span>
+      </button>
+
+      <button id="reset-view-btn" class="action-btn" title="Reset Map View">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+          <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Filter & Regional Toolbar -->
+  <div class="filter-bar">
+    <!-- Territory Toggle -->
+    <div class="filter-group">
+      <span class="filter-label">Territory:</span>
+      <div class="filter-pills">
+        <button class="filter-pill active" data-territory="all">All (36)</button>
+        <button class="filter-pill" data-territory="states">28 States</button>
+        <button class="filter-pill" data-territory="uts">8 Union Territories</button>
+      </div>
+    </div>
+
+    <!-- Category Filter -->
+    <div class="filter-group">
+      <span class="filter-label">Category:</span>
+      <select id="category-filter" class="filter-select">
+        <option value="all">All Categories</option>
+        <option value="Folk & Tribal">Folk & Tribal</option>
+        <option value="Miniature & Panel Painting">Miniature & Panel Painting</option>
+        <option value="Cave Murals & Frescoes">Cave Murals & Frescoes</option>
+        <option value="Sacred Textile & Fiber Art">Sacred Textile & Fiber Art</option>
+        <option value="Metal, Stone & Sculpture">Metal, Stone & Sculpture</option>
+        <option value="Ritual Sacred Art">Ritual Sacred Art</option>
+      </select>
+    </div>
+
+    <!-- Historical Era Filter -->
+    <div class="filter-group">
+      <span class="filter-label">Era:</span>
+      <select id="era-filter" class="filter-select">
+        <option value="all">All Historical Eras</option>
+        <option value="Prehistoric & Ancient">Prehistoric & Ancient</option>
+        <option value="Classical & Medieval">Classical & Medieval</option>
+        <option value="Royal & Courtly">Royal & Courtly</option>
+        <option value="Colonial & Modern Transition">Colonial & Modern Transition</option>
+        <option value="Living Folk Tradition">Living Folk Tradition</option>
+      </select>
+    </div>
+
+    <!-- State Quick Select Dropdown -->
+    <div class="filter-group">
+      <span class="filter-label">Jump to State/UT:</span>
+      <select id="state-select" class="filter-select">
+        <option value="">Select a State or Union Territory...</option>
+      </select>
+    </div>
+
+    <!-- Result Counter -->
+    <div id="results-count" class="results-badge">36 Art Forms Displayed</div>
+  </div>
+
+  <!-- Map Main Viewport -->
+  <main class="map-viewport">
+    <!-- Floating Info Pill -->
+    <div class="floating-india-badge">
+      <div class="floating-badge-title">Subcontinental Heritage Explorer</div>
+      <div class="floating-badge-subtitle">Click pins or use filters to discover art history</div>
+    </div>
+
+    <!-- Leaflet Map Div -->
+    <div id="leaflet-map"></div>
+
+    <!-- Slide-Out Art Detail Drawer -->
+    <aside id="detail-drawer" class="detail-drawer" aria-label="Art details">
+      <div class="drawer-header">
+        <img id="drawer-hero-img" class="drawer-hero-img" src="" alt="Indian Art Heritage">
+        <div class="drawer-gradient-overlay"></div>
+        <button id="drawer-close-btn" class="drawer-close-btn" title="Close Panel">✕</button>
+        <div class="drawer-title-block">
+          <div id="drawer-state-badge" class="drawer-state-badge">State</div>
+          <h2 id="drawer-title" class="drawer-title">Art Form Title</h2>
+          <div id="drawer-native-name" class="drawer-native-name">Native Script</div>
+        </div>
+      </div>
+
+      <div class="drawer-body">
+        <!-- Metadata Box Grid -->
+        <div class="drawer-meta-grid">
+          <div class="meta-box">
+            <div class="meta-box-label">Category</div>
+            <div id="drawer-meta-category" class="meta-box-val">-</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-box-label">Historical Era</div>
+            <div id="drawer-meta-era" class="meta-box-val">-</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-box-label">Region / Hub</div>
+            <div id="drawer-meta-region" class="meta-box-val">-</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-box-label">School / Movement</div>
+            <div id="drawer-meta-movement" class="meta-box-val">-</div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Overview</h3>
+          <p id="drawer-summary" class="section-text"></p>
+        </div>
+
+        <!-- Multi-Picture Gallery Section -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Visual Gallery & Artworks</h3>
+          <div id="drawer-gallery" class="drawer-gallery-grid"></div>
+        </div>
+
+        <!-- Key Visual Motifs -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Key Visual Motifs & Iconography</h3>
+          <div id="drawer-motifs" class="motifs-container"></div>
+        </div>
+
+        <!-- Historical Context -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Historical Context & Royal Patronage</h3>
+          <p id="drawer-history" class="section-text"></p>
+        </div>
+
+        <!-- Cultural & Ritual Significance -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Cultural & Ritual Significance</h3>
+          <p id="drawer-cultural" class="section-text"></p>
+        </div>
+
+        <!-- Step-by-Step Creation Process -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Step-by-Step Creation Process</h3>
+          <div id="drawer-process" class="process-timeline"></div>
+        </div>
+
+        <!-- Geographic Spread & Diffusion -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Geographic Spread & Cultural Influence</h3>
+          <p id="drawer-spread" class="section-text"></p>
+        </div>
+
+        <!-- Techniques & Pigments -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Techniques, Tools & Natural Pigments</h3>
+          <p id="drawer-technique" class="section-text"></p>
+        </div>
+
+        <!-- Master Artists & Lineages -->
+        <div class="drawer-section">
+          <h3 class="section-heading">Renowned Master Artists & Lineage</h3>
+          <ul id="drawer-artists" class="artists-list"></ul>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <button id="prev-art-btn" class="nav-art-btn">← Previous Art Form</button>
+        <button id="next-art-btn" class="nav-art-btn">Next Art Form →</button>
+      </div>
+    </aside>
+
+    <!-- Floating Guided Tour Active Bar -->
+    <div id="tour-control-bar" class="tour-control-bar">
+      <div>
+        <div id="tour-title" class="tour-info-title">Guided Tour Name</div>
+        <div id="tour-step-counter" class="tour-step-counter">Stop 1 of 5</div>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <button id="tour-prev-btn" class="action-btn">← Prev</button>
+        <button id="tour-next-btn" class="action-btn">Next →</button>
+        <button id="tour-exit-btn" class="action-btn" style="background: rgba(239, 68, 68, 0.2); border-color: #ef4444; color: #fca5a5;">Exit Tour</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Guided Trails Selection Modal -->
+  <div id="trails-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Curated Guided Art Trails</h3>
+        <button id="close-trails-btn" class="modal-close-btn" title="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 16px;">
+          Embark on thematic step-by-step journeys across India's regional traditions, sacred caves, royal court ateliers, and tribal homelands:
+        </p>
+        <div id="trails-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Quiz Modal -->
+  <div id="quiz-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Test Your Indian Art Knowledge</h3>
+        <button id="close-quiz-btn" class="modal-close-btn" title="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="quiz-progress-bar">
+          <div id="quiz-progress-fill" class="quiz-progress-fill" style="width: 0%;"></div>
+        </div>
+        <div id="quiz-question" class="quiz-question-text">Question will appear here</div>
+        <div id="quiz-options" class="quiz-options-list"></div>
+        <div id="quiz-feedback-box" class="quiz-feedback-box"></div>
+        <button id="quiz-action-btn" class="action-btn primary" style="width: 100%; justify-content: center; margin-top: 10px; display: none;">Next Question →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Zoom Lightbox Modal -->
+  <div id="lightbox-modal" class="modal-overlay">
+    <div class="lightbox-content">
+      <button id="lightbox-close-btn" class="drawer-close-btn" style="top: -15px; right: -15px;">✕</button>
+      <img id="lightbox-img" src="" alt="Full Artwork Preview" class="lightbox-img">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Leaflet & App Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/artData.js"></script>
+  <script src="js/mapEngine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
